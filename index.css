@@ -1,14 +1,7 @@
 body {
   background-color: #28282d;
   color: #dfdfe5;
-}
-a{
-  color: #ffe8c0;
-  outline: none;
-  text-decoration: none;
-}
-ul{
-  list-style: none
+  font-family: 'Fira Code', monospace;
 }
 .menu{
   background-color: #2f2f3a;
@@ -23,8 +16,19 @@ ul{
 .main-image{
   height: 250px;
 }
+.text a{
+  color: #ffe8c0;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
 
+}
 .text{
-  padding: 5px;
+  padding: 15px;
   font-size:20px;
+}
+.clock{
+  color: #b24b26;
+  font-size: 16px;
 }
