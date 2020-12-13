@@ -5,13 +5,10 @@ body {
 }
 .menu{
   background-color: #2f2f3a;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: 250px;
   width: 550px;
+  margin: 12% auto;
+  display: flex;
 }
 .main-image{
   height: 250px;
@@ -20,13 +17,23 @@ body {
   color: #ffe8c0;
   outline: none;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-
+  display: block;
 }
 .text{
   padding: 15px;
   font-size:20px;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links1{
+  width:90px;
+}
+.links2{
+  width: 90px;
+  margin-left: 15px;
 }
 .clock{
   color: #b24b26;
